@@ -31,10 +31,6 @@ function search() {
                 cardBody.classList.add('card-body');
 
                 let trackList = album['tracklist'];
-                fetch(trackList)
-                .then (list => list.json())
-                console.log(list);
-                
                 
                 
                 let paragrafo = document.createElement('p');
